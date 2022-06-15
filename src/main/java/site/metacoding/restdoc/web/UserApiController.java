@@ -14,6 +14,12 @@ import org.springframework.web.bind.annotation.RestController;
 
 import site.metacoding.restdoc.domain.User;
 
+// save -> post
+// deleteById -> delete
+// updateById -> put
+// findById -> get
+// findAll -> get
+
 @RequestMapping("/api")
 @RestController
 public class UserApiController {
